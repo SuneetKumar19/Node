@@ -41,7 +41,6 @@ router.post("/campgrounds/:id/comments", isLoggedIn, function(req, res) {
     });
 });
 
-
 // middleware
 
 function isLoggedIn(req, res, next) {
